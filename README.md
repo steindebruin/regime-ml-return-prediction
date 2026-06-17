@@ -21,12 +21,16 @@ python main.py
 ```
 
 ## Structure
-```
+
+```text
 regime-ml-return-prediction/
- - main.py              — runs all scripts in order
- - utils.py             — shared utility functions
- - requirements.txt     — Python dependencies
- - data/                — data files
- - results/             — predictions, metrics, tables, and plots
- - *.py                 — analysis scripts
-```
+
+├── main.py              — runs all scripts in order
+├── utils.py             — shared utility functions
+├── requirements.txt     — Python dependencies
+
+├── data/                — data files
+
+├── results/             — predictions, metrics, tables, and plots
+
+└── *.py                 — analysis scripts
